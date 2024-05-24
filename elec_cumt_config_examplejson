@@ -1,0 +1,22 @@
+{
+  "log_file_path": "日志文件的保存路径，如./log/",
+  "cache_file_path":"缓存文件的保存路径，如./cache/",
+  "html_file_path": "网页文件的保存路径，如./html/",
+  "fetch_url": "请求接口URL，如https://yktm.cumt.edu.cn/web/Common/Tsm.html",
+
+  "dormitory": [
+    { "roomid": "房间ID，就是充电费时填的那个，如T1A101，代表桃苑1号楼A101", "building": "楼区号：11桃苑，12松苑竹苑，13杏苑，14兰苑梅苑，571南湖体育馆，614用电单位" }
+  ],
+
+  "smtp_server": "smtp服务器URL，如smtp.qq.com",
+  "smtp_port": 25,
+  "smtp_username": "smtp用户名，如example@qq.com",
+  "smtp_password": "smtp用户密码",
+
+  "email_admin": "管理员邮件账户，如admin@example.com",
+  "email_list": {
+    "房间ID":["将一个或多个邮件地址填写在这个数组中，详见下方示例"],
+    "T1A101":["user1@example.com","user2@example.com"],
+    "T1A102":["user3@example.com","user4@example.com"]
+  }
+}
